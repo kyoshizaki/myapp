@@ -10,9 +10,11 @@
  * files in this directory. Styles in this file should be added after the last require_* statement.
  * It is generally better to create a new file per style scope.
  *
- *= require_tree .
  *= require_self
  */
+
+@import "bootstrap";
+@import "posts";
 
 .container {
     width: 400px;
@@ -31,20 +33,20 @@ h2 {
     border-bottom: 1px solid #ddd;
 }
 
-ul > li {
-    margin-bottom: 5px;
-}
+// ul > li {
+//     margin-bottom: 5px;
+// }
 
 .logo {
     width: 400px;
     height: 50px;
 }
 
-.header-menu {
-    font-size: 12px;
-    font-weight: normal;
-    float: right;
-}
+// .header-menu {
+//     font-size: 12px;
+//     font-weight: normal;
+//     float: right;
+// }
 
 input[type="text"], textarea {
     box-sizing: border-box;
@@ -62,6 +64,6 @@ textarea {
     color: tomato;
 }
 
-.command {
-    font-size: 12px;
-}
+// .command {
+//     font-size: 12px;
+// }
