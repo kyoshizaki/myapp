@@ -2,3 +2,10 @@ en:
   posts:
     index:
       add_new: Add New
+    signin:
+      signin: Sign In
+      signout: Sign Out
+      signup: Sign Up
+  users:
+    form:
+      cancel: Cancel

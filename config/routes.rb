@@ -4,6 +4,8 @@ Rails.application.routes.draw do
     resources :posts do
       resource :comments
     end
+    resources :users
+    resources :sessions
     
     root 'posts#index'
 end
